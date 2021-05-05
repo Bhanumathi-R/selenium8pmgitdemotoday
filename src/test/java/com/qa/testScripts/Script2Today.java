@@ -20,6 +20,7 @@ public class Script2Today extends Base {
 		driver.findElement(By.xpath("//input[@value='red']")).click();
 		
 			System.out.println("checkbox is selected");
+		System.out.println("making changes for continous testing");
 		
 		driver.findElement(By.xpath("//input[@value='blue']")).click();
 		driver.findElement(By.xpath("//input[@value='orange']")).click();
